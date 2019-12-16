@@ -7,8 +7,12 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
-    padding: 25px;
+    padding: 10px;
+    display:flex;
+    
+    .brandLink{
+      font-size: 40px;
+    }
   }
 
   .options {
@@ -20,7 +24,7 @@
 
     .option {
       padding: 10px 15px;
-      
+      font-size: 40px;
     }
   }
 }
